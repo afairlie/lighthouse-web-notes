@@ -124,6 +124,15 @@ students[param] (as below) will send ie: Isabella if http://localhost:3000/stude
   res.send(students[req.params.student_id]);
 });
 ```
+
+### Params with Express
+```
+server.get('/urls/:shortURL', (req, res) => {
+  let templateVars = { shortURL: req.params.shortURL, longURL: urlDatabase[req.params.shortURL] };
+
+  res.render('urls_show', templateVars);
+})
+```
 ## Middlewares (in Express)
 
 *functions handling behaviour between request and response*
