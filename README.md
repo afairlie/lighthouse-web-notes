@@ -20,3 +20,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 1](week-3/d1-lecture.md) - Web Servers (Express & EJS)
   * [Interview](week-3/interviewNotes.md) - 2nd Mock Interview Notes
   * [Day 2](week-3/d2-lecture.md) - CRUD (Create, Read, Update, Delete), in Express
+  * [Day 3](week-3/d3-lecture.md) - Cookies & User Authentication
