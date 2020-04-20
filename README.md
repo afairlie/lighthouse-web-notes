@@ -22,3 +22,5 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 2](week-3/d2-lecture.md) - CRUD (Create, Read, Update, Delete), in Express
   * [Day 3](week-3/d3-lecture.md) - Cookies & User Authentication
   * [Day 4](week-3/d4-lecture.md) - Security, REST, Modular Routing, MiddleWare
+* [Week 4](week-4)
+  * [Day 1](week-4/d1-lecture.md) - CSS (+ HTML)
