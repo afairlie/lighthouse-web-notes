@@ -24,3 +24,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 4](week-3/d4-lecture.md) - Security, REST, Modular Routing, MiddleWare
 * [Week 4](week-4)
   * [Day 1](week-4/d1-lecture.md) - CSS (+ HTML)
+  * [Day 2](week-4/d2-lecture.md) - JS & jQuery on DOM (Client-Side Javascript)
