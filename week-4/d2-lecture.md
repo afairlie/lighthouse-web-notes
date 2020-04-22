@@ -85,7 +85,8 @@ Single page:
 
 *Javascript is event-based*
 
-`monitorEvents(document)` - monitor events anywhere on document.
+`monitorEvents(document);` - Chrome DevTools: monitor events anywhere on document.
+`unmonitorEvents(document);`
 
 But we only want to listen for particular events.
 
@@ -209,6 +210,78 @@ div.append(p);
 
 ```
 
-### jQuery Loop
+<br>
 
-(see Dom's pet.js example for this loop!)
+## Add Elements to the DOM with jQuery
+---
+
+### HTML Container
+
+```
+  <body>
+    <section class="pets-container">
+      <!-- Pet articles are going to be added here -->
+    </section>
+  </body>
+```
+
+### Dataset: an array of pets
+
+```
+const pets = [
+  {
+    name: 'Dingo',
+    type: 'dog',
+    age: 1,
+  },
+  {
+    name: 'Kongo',
+    type: 'snake',
+    age: 3,
+  }
+];
+```
+
+### Creating the animal obj for the dom (excerpt of full obj)
+
+```
+
+const createElement = animalObj => {
+
+$article.append($header);
+
+  // Creating the content div with a class of content
+  const $contentDiv = $('<div>').addClass('content');
+
+  // Creating the ul element
+  const $ul = $('<ul>');
+
+  // createing the specis li element
+  const $speciesLi = $('<li>');
+
+  // creating the span element and adds it to the species li
+  $('<span>')
+    .text('Species: ')
+    .appendTo($speciesLi);
+
+  // adding the species to the li
+  $speciesLi.append(` ${animalObj.type}`);
+
+// ... etc.
+}
+```
+
+### jQuery Loop & Render on DOM
+```
+// loop through the array of animal objects and create an
+// article element out of each object and appends it to the page section
+const renderElements = petsArr => {
+  $.each(petsArr, (index, animalObj) => {
+    $('.pets-container').append(createElement(animalObj));
+  });
+};
+
+$(document).ready(function() {
+  renderElements(pets);
+});
+```
