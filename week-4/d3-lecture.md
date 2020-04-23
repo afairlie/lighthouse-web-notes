@@ -9,7 +9,7 @@ jQuery and React are libraries written in javascript used to manipulate the DOM
 ajax has a very clean implementation in jQuery - it only takes 2 parameters
 ajax is for datafetching 
 
-Axios is a module for ajax. syntax similar to express. 
+Axios is a module for ajax. syntax similar to express. `axios.get()`
 
 Ajax is the core functionality for many different fundamental web features
 - infinite scroll
