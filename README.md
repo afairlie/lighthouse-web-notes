@@ -29,3 +29,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 4](week-4/d4-lecture.md) - Responsive Design with CSS Flexbox, Bootstrap, & SCSS Overview
 * [Week 5](week-5)
   * [Day 1](week-5/d1-lecture.md) - Databases (PostgreSQL)
+  * [Day 2](week-5/d2-lecture.md) - Data Modelling (ERDs)
