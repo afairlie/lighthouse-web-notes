@@ -31,3 +31,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 1](week-5/d1-lecture.md) - Databases (PostgreSQL)
   * [Day 2](week-5/d2-lecture.md) - Data Modelling (ERDs)
   * [Day 3](week-5/d3-lecture.md) - Node PostgreSQL, Express w/ PM, Closures, & .env
+  * [Midterm-Kickoff](week-5/midterm-kickoff.md) - Notes for kickoff
