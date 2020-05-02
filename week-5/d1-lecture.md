@@ -14,6 +14,7 @@ It's extremenly insecure for client to communicate directly with database.
 - `\c` - connect to database
 - `\dt` - overview of tables in a specific database
 - `\q` - quit psql or `ctrl d`
+- `\i` - include `<filename>`
 
 ### Ownership/Permissions
 
