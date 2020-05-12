@@ -34,3 +34,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Midterm-Kickoff](week-5/midterm-kickoff.md) - Notes for kickoff
 * [Week 7](week-7)
   * [Day 1](week-7/d1-lecture.md) - Component-Based UI w/ React
+  * [Day 2](week-7/d2-lecture.md) - Immutable Update Patterns
