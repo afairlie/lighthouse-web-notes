@@ -216,3 +216,40 @@ return <ul>{loading ? <li>...loading</li> : contribList}</ul>
 - no array : invoke each time any render happens
 - empty array : invoke once (always use this with network request)
 - array with dependency : invoke each time dependency is rendered
+
+## useEffect Cleanup 
+We can return a function from our effect that describes how to clean up the side effect. Timers, event listeners and socket connections are examples of side effects that require cleanup.
+
+```
+import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom";
+
+import "./styles.scss";
+
+import Broken from "./components/Broken";
+import Fixed from "./components/Fixed";
+
+function Application() {
+  const [likes, setLikes] = useState(0);
+
+  useEffect(() => {
+    document.body.className = `bg--${likes % 2}`;
+  }, [likes]);
+
+  useEffect(() => {
+    if (likes > 0) {
+      const timeout = setTimeout(() => setLikes(prev => prev - 1), 1000);
+      return () => clearInterval(timeout); // clears the timer set above
+    }
+  }, [likes]);
+
+  return (
+    <div onClick={() => setLikes(likes + 1)}>
+      {likes > 0 ? <Fixed>{likes}</Fixed> : <Broken />}
+    </div>
+  );
+}
+
+ReactDOM.render(<Application />, document.getElementById("root"));
+
+```
