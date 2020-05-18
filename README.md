@@ -38,3 +38,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
     * [Breakout](week-7/d2-react-breakout.md) - React Breakout
   * [Day 3](week-7/d3-lecture.md) - Data Fetching & Other Side Effects
   * [Day 4](week-7/d4-lecture.md) - Custom Hooks
+    * [Project Review](week-7/d4-react-scheduler-fundamentals.md) - Understanding Scheduler React Model
