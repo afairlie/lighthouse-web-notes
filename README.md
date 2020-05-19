@@ -41,3 +41,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
     * [Project Review](week-7/d4-react-scheduler-fundamentals.md) - Understanding Scheduler React Model
 * [Week 8](week-8)
   * [Day 1](week-8/d1-lecture.md) - Unit & Integration Testing
+  * [Day 2](week-8/d2-lecture.md) - Advanced React Topics
