@@ -44,3 +44,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 2](week-8/d2-lecture.md) - Advanced React Topics
   * [Day 3](week-8/d3-lecture.md) - End-to-End Testing with Cypress
   * [Day 4](week-8/d4-lecture.md) - React with Classes
+  * [Day 5](week-8/d5-lecture.md) - Ruby Intro
