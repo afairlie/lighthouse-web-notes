@@ -48,3 +48,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
 * [Week 9](week-9)
   * [Interview Notes](week-9/d1-interview.md)
   * [Ruby on Rails Tutorial Notes](week-9/ror-tutorial.md)
+  * [Finals Brainstorm](week-9/finals-brainstorm.md)
