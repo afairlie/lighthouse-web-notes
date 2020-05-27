@@ -45,3 +45,6 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 3](week-8/d3-lecture.md) - End-to-End Testing with Cypress
   * [Day 4](week-8/d4-lecture.md) - React with Classes
   * [Day 5](week-8/d5-lecture.md) - Ruby Intro
+* [Week 9](week-9)
+  * [Interview Notes](week-9/d1-interview.md)
+  * [Ruby on Rails Tutorial Notes](week-9/ror-tutorial.md)
