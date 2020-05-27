@@ -47,5 +47,6 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Day 5](week-8/d5-lecture.md) - Ruby Intro
 * [Week 9](week-9)
   * [Interview Notes](week-9/d1-interview.md)
-  * [Ruby on Rails Tutorial Notes](week-9/ror-tutorial.md)
-  * [Finals Brainstorm](week-9/finals-brainstorm.md)
+  * [Ruby on Rails Tutorial Notes](week-9/ror-tutorial.md) - Build a Blog (Generate Model and Controller, + MVC Flow)
+  * [MVC](week-9/mvc.md) - What is MVC
+  * [Finals Brainstorm](week-9/finals-brainstorm.md) - Some Suggestions/Considerations
