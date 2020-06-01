@@ -50,3 +50,6 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [Ruby on Rails Tutorial Notes](week-9/ror-tutorial.md) - Build a Blog (Generate Model and Controller, + MVC Flow)
   * [MVC](week-9/mvc.md) - What is MVC
   * [Finals Brainstorm](week-9/finals-brainstorm.md) - Some Suggestions/Considerations
+  * [React Fiber Research](week-9/react-fiber-research) - Research for: ['To Understand React Fiber, You Need to Know About Threads'](https://dev.to/afairlie/to-understand-react-fiber-you-need-to-know-about-threads-3dof)
+* [Week 10](week-10)
+  * [Day 1](week-10/d1-lecture.md) - Testing with Ruby
