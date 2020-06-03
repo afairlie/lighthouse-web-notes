@@ -54,3 +54,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
 * [Week 10](week-10)
   * [Day 1](week-10/d1-lecture.md) - Rails Review
   * [Day 2](week-10/d2-lecture.md) - Rails Testing (Capybara)
+  * [Day 3](week-10/d3-lecture.md) - Advanced Topic: React Web Sockets
