@@ -53,3 +53,4 @@ This repository contains all the notes taken by me, [Ariane](https://github.com/
   * [React Fiber Research](week-9/react-fiber-research) - Research for: ['To Understand React Fiber, You Need to Know About Threads'](https://dev.to/afairlie/to-understand-react-fiber-you-need-to-know-about-threads-3dof)
 * [Week 10](week-10)
   * [Day 1](week-10/d1-lecture.md) - Rails Review
+  * [Day 2](week-10/d2-lecture.md) - Rails Testing (Capybara)
